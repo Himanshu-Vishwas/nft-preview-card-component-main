@@ -11,48 +11,33 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="index.css" />
-
-    <title>Frontend Mentor | Product preview card component</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-    <div class="container">
-      <article>
-        <picture>
-          <source
-            media="(min-width: 640px)"
-            srcset="./images/image-product-desktop.jpg"
-          />
-          <img src="./images/image-product-mobile.jpg" alt="" />
-        </picture>
-      </article>
+    <div class="card">
+      <div class="image">
+        <img src="./images/image-equilibrium.jpg" alt="" class="mainImage" />
+      </div>
 
-      <article>
-        <h2>perfume</h2>
+      <h3>Equilibrium #3429</h3>
 
-        <h1>Gabrielle Essence Eau De Parfum</h1>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
 
-        <p>
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL.
-        </p>
+      <div class="value-days">
+        <div class="value">
+          <img src="./images/icon-ethereum.svg" alt="icon-ethereum" />0.041 ETH
+        </div>
+        <div class="days">
+          <img src="./images/icon-clock.svg" alt="" />
+          3 days left
+        </div>
+      </div>
 
-        <ul>
-          <li class="price">$149.99</li>
-          <li><s>$169.99</s></li>
-        </ul>
-
-        <button class="btn">
-          <img src="./images/icon-cart.svg" alt="" /> Add to Cart
-        </button>
-      </article>
-    </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://tsbsankara.netlify.app">Thomas Sankara</a>.
+      <div class="avatar">
+        <img src="./images/image-avatar.png" alt="" class="avatarImg" />
+        Creation of <span class="name">Jules Wyvern</span>
+      </div>
     </div>
   </body>
 </html>
